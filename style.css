@@ -1,0 +1,78 @@
+*{ margin:0;
+   padding:0;
+}
+body{
+    overflow-x: hidden;
+}   
+ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+} 
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.navbar{
+    width:100%;
+    background-color: rgba(2, 3, 3, 0.192);
+    position: absolute;
+    z-index: 5;
+}
+/* .navig {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ 
+} */
+
+.navig{
+    width: 100%;
+    height:120px;
+    display:flex;
+    flex-direction: row;
+    /* width:70%; */
+    font-size: 25px;
+    justify-content: space-around;
+    align-items: center;
+    /* padding-top: 30px; */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.logo{
+    /* padding-left:0px; */
+    font-size:30px;
+    font-weight: 600;
+    /* padding-top: 30px; */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.imaginn{
+    height:100px;
+    width: 100px;
+    margin: 30px 0px 30px 0px;
+}
+.logo:hover{
+    transition: 3s;
+    color:black
+}
+.navig li:hover{
+    transition: 0.5s;
+    opacity: 0.5;
+}
+.navig li{
+    transition: 0.5s;
+}
+/* pana aici a fost navigarea */
+
+.pentruimg{
+    width:100%;
+    height:100vh;
+    background-image: url(imo.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
